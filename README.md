@@ -10,7 +10,7 @@ least populous country to dark red to the most populous country.
 
 Suppose that the population data is saved to one of the columns in a pandas dataframe, with index representing each country, and there is a compatible geojson file. Then, a minimal working example to plot the choropleth map is as follows,
 
-'
+``
 import choropleth_geojson as cg
 import pandas as pd
 import json
@@ -27,5 +27,5 @@ northamerica = cg.choropleth(apikey, df, geojson, 'Country')
 fig = northamerica.choroplot()
 
 offline.plot(fig, auto_open=True)
-'
+``
 
