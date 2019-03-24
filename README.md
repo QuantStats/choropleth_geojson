@@ -1,3 +1,6 @@
+From PyPI:
+https://pypi.org/project/choropleth-geojson/
+
 The module was inspired by the work presented on http://vincepota.com/plotly_choropleth_map.html and also on https://github.com/vincepota/plotly_choropleth_tutorial.
 
 The module enables the plotting of a choropleth map from a compatible geojson file. To check for the compatibility of a geojson file, the file can be uploaded to http://geojson.io/#map=2/20.0/0.0. If the area of the map that corresponds to the geographical region on the geojson file is shaded, then the geojson file is compatibile to be used with this module. The module also requires an API key from Mapbox. An API key can be obtained for free from https://docs.mapbox.com/help/how-mapbox-works/access-tokens/.
