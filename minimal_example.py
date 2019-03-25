@@ -5,12 +5,13 @@ import plotly.offline as offline
 
 apikey = 'my_mapbox_apikey123alpha890'
 
-df = pd.read_csv('sg_density_data.csv', index_col = 0)
+df = pd.read_csv('population_data.csv', index_col = 0)
 
-with open(r'sg.json') as f:
+with open(r'north_america.json') as f:
     geojson = json.load(f)
-	
-sg = cg.choropleth(apikey, df, geojson, 'name')
-fig = sg.choroplot()
+
+northamerica = cg.choropleth(apikey, df, geojson, 'Country')
+fig = northamerica.choroplot()
 
 offline.plot(fig, auto_open=True)
+
