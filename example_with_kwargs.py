@@ -3,7 +3,7 @@ import pandas as pd
 import json
 import plotly.offline as offline
 
-apikey = 'pk.eyJ1IjoidmlvbGV0eWVsbG93IiwiYSI6ImNqdGZrZ2NtMjAyOWw0M250Nm9vdTh4MnEifQ.6Wk26C8g0ZvHtN-o43hDkw'
+apikey = 'my_mapbox_apikey123alpha890'
 
 df = pd.read_csv('elspot_yearly.csv', index_col = 0)
 
