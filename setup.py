@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="choropleth_geojson",
-    version="0.0.3",
+    version="0.0.7",
     author="Wei Ruen Leong",
     author_email="wei.leong2@uqconnect.edu.au",
     description="Plot a choropleth map with a geojson file.",
